@@ -45,7 +45,8 @@ export default function Login(){
                 headers:{
                     "Content-Type":"application/json"
                 },
-                body:JSON.stringify(formData)
+                body:JSON.stringify(formData),
+                credentials:"include"
             })
     
             if(!response.ok){

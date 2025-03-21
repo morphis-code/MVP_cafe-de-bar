@@ -12,7 +12,7 @@ The user/consumer will access the website, log in to their account and look for 
 
 The establishment will access the website, log in and create their discount coupons, which users/consumers can use.
 
-Both users and establishments will pay a monthly fee to use the service.
+### Both users and establishments will pay a monthly fee to use the service:
 
 - Users: R$14.90/month.
 

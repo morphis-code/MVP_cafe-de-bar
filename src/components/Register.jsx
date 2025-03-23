@@ -8,7 +8,6 @@ import {
     Card,
     CardContent,
     CardDescription,
-    CardFooter,
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
@@ -101,9 +100,7 @@ export default function Register(){
                 headers: {
                     "Content-Type":"application/json"
                 },
-                body:JSON.stringify({...formData, sex:value, category:value2,password:password
-
-                }),
+                body:JSON.stringify({...formData, sex:value, role:value2,password:password}),
                 credentials:"include"
             })
 
